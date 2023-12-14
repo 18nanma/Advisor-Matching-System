@@ -1,10 +1,19 @@
 import React from 'react';
 import './Results.css';
+import Illini from './I_symbol.jpg';
 
-const Results = ({ profData }) => {
+const Results = ({ profData, setHome, showResultsPage }) => {
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setHome(true);  
+    showResultsPage(false);
+  };
+
   return (
     <div className="results-container">
-      <h2>The top 5 professors that would be a great fit as your advisors are:</h2>
+      <img src={Illini} alt="Descriptive Alt Text" className="form-image" />
+      <h1>The top 5 professors that would be a great fit as your advisors are:</h1>
       <div className="cards-container">
         {profData.map((prof, index) => (
           <div key={index} className="prof-card">
@@ -12,6 +21,7 @@ const Results = ({ profData }) => {
           </div>
         ))}
       </div>
+      <button className="more-info-btn" onClick={handleSubmit} >Go Back Home</button>
     </div>
   );
 };

@@ -2,7 +2,7 @@
 .App {
   text-align: center;
   font-family: 'Roboto', sans-serif; /* Modern and readable font */
-  background-color: #4db8ff; /* Bright blue background for the whole app */
+  background-color: #ea6e16; /* Bright blue background for the whole app */
   color: #ffffff; /* White text color */
   height: 100vh; /* Full viewport height */
   display: flex;
