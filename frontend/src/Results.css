@@ -34,18 +34,33 @@
   padding: 20px;
   width: 200px;
   /* Width of the card */
-  height: 200px;
+  height: 300px;
   /* Height of the card - making it square */
   margin-bottom: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
   display: flex;
+  flex-direction: column;
   /* Flex display to center content */
   align-items: center;
   /* Align items vertically */
   justify-content: center;
   /* Align items horizontally */
 }
+
+.professor-image {
+  width: 80%; /* Makes the image fill the card width */
+  height: 70%; /* Maintains the aspect ratio of the image */
+  border-radius: 5px; /* Optional: Adds rounded corners to the image */
+  margin-bottom: 10px; /* Space between the image and the professor's name */
+}
+
+.prof-link {
+  text-decoration: none; /* Removes underline from links */
+  color: inherit; /* Ensures text color is not changed by the link */
+  display: block; /* Makes the entire area of the link clickable */
+}
+
 
 .prof-card:hover {
   transform: translateY(-10px);

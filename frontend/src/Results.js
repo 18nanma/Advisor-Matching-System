@@ -16,9 +16,12 @@ const Results = ({ profData, setHome, showResultsPage }) => {
       <h1>The top 5 professors that would be a great fit as your advisors are:</h1>
       <div className="cards-container">
         {profData.map((prof, index) => (
+          <a href={prof.website} target="_blank" rel="noopener noreferrer" key={index} className="prof-link">
           <div key={index} className="prof-card">
+            <img src={prof.image} alt={`Professor ${prof.profname}`} className="professor-image" />
             <p>{prof.profname}</p>
           </div>
+          </a>
         ))}
       </div>
       <button className="more-info-btn" onClick={handleSubmit} >Go Back Home</button>
