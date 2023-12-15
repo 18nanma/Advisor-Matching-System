@@ -33,7 +33,7 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
       }
       async function postData() {
         try {
-          const response = await fetch('http://localhost:5001/api/student', {
+          const response = await fetch('http://localhost:5000/api/student', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

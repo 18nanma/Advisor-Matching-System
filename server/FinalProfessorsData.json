@@ -7,7 +7,48 @@
       "embedded systems",
       "social sensing"
     ],
-    "publications": []
+    "publications": [
+      {
+        "title": "Range-free localization schemes for large scale sensor networks",
+        "snippet": "Wireless Sensor Networks have been proposed for a multitude of location-dependent applications. For such systems, the cost and limitations of the hardware on sensing nodes prevent \u2026"
+    },
+    {
+        "title": "Energy-efficient surveillance system using wireless sensor networks",
+        "snippet": "The focus of surveillance missions is to acquire and verify information about enemy capabilities and positions of hostile targets. Such missions often involve a high element of risk for \u2026"
+    },
+    {
+        "title": "Real time scheduling theory: A historical perspective",
+        "snippet": "In this 25th year anniversary paper for the IEEE Real Time Systems Symposium, we review the key results in real-time scheduling theory and the historical events that led to the \u2026"
+    },
+    {
+        "title": "Pda: Privacy-preserving data aggregation in wireless sensor networks",
+        "snippet": "Providing efficient data aggregation while preserving data privacy is a challenging problem in wireless sensor networks research. In this paper, we present two privacy-preserving data \u2026"
+    },
+    {
+        "title": "Deepsense: A unified deep learning framework for time-series mobile sensing data processing",
+        "snippet": "Mobile sensing and computing applications usually require time-series inputs from sensors, such as accelerometers, gyroscopes, and magnetometers. Some applications, such as \u2026"
+    },
+    {
+        "title": "Social sensing: building reliable systems on unreliable data",
+        "snippet": "\u2026 between Mani Srivastava, Tarek Abdelzaher, and Boleslaw \u2026 It was not until Dong Wang and Tarek Abdelzaher discussed \u2026 thesis topic of Tarek Abdelzaher, the second author of this \u2026"
+    },
+    {
+        "title": "SPEED: A stateless protocol for real-time communication in sensor networks",
+        "snippet": "In this paper, we present a real-time communication protocol for sensor networks, called SPEED. The protocol provides three types of real-time communication services, namely, real-\u2026"
+    },
+    {
+        "title": "Performance guarantees for web server end-systems: A control-theoretical approach",
+        "snippet": "The Internet is undergoing substantial changes from a communication and browsing infrastructure to a medium for conducting business and marketing a myriad of services. The World \u2026"
+    },
+    {
+        "title": "RAP: A real-time communication architecture for large-scale wireless sensor networks",
+        "snippet": "Large-scale wireless sensor networks represent a new generation of real-time embedded systems with significantly different communication constraints from traditional networked \u2026"
+    },
+    {
+        "title": "Vigilnet: An integrated sensor network system for energy-efficient surveillance",
+        "snippet": "This article describes one of the major efforts in the sensor network community to build an integrated sensor network system for surveillance missions. The focus of this effort is to \u2026"
+    }
+    ]
   },
   "Sarita V. Adve": {
     "interests": [

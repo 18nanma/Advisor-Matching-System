@@ -22,11 +22,12 @@ function App() {
       {!isLoading && showResults &&
       <div className='results'>
         <Results profData = {[
-                        {"profname": profData[0]},
-                        {"profname": profData[1]},
-                        {"profname": profData[2]},
-                        {"profname": profData[3]},
-                        {"profname": profData[4]}]
+                        {"profname": profData[0][0]},
+                        {"profname": profData[1][0]},
+                        {"profname": profData[2][0]},
+                        {"profname": profData[3][0]},
+                        {"profname": profData[4][0]}
+                        ]
                       } setHome={setHome} showResultsPage={showResultsPage} />
       </div> }
       {isLoading && <Loader /> }
