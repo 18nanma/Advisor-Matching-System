@@ -7,10 +7,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 with open('project/Advisor-Matching-System/server/FinalProfessorsData.json', 'r') as file:
     combined_data = json.load(file)
 
-# Assuming you have a representation of the student's interests
 student_interests = ["computer vision deep learning Using Deep Learning and Augmented Reality to Improve Accessibility: Inclusive Conversations Using Diarization, Captions, and Visualization"]
 
-# Combine the student's interests into a single string
 student_interests_str = " ".join(student_interests)
 
 # Create a list of professor names and their combined interests

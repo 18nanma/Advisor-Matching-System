@@ -42,7 +42,7 @@ kmeans = KMeans(n_clusters=n_clusters, random_state=0).fit(X)
 clusters = kmeans.labels_
 
 # Identify important terms in each cluster
-top_terms = get_top_features_cluster(X.toarray(), clusters, 10)  # Change 10 to another number to show more/less terms
+top_terms = get_top_features_cluster(X.toarray(), clusters, 10) 
 
 # Group and print professors by cluster and their top terms
 clustered_professors = {i: [] for i in range(n_clusters)}

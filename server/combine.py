@@ -28,9 +28,8 @@ def update_json_with_excel(json_file_path, excel_file_path, output_json_file_pat
     with open(output_json_file_path, 'w') as file:
         json.dump(professors_data, file, indent=4)
 
-# Example usage of the script
 json_file_path = 'FinalProfessorsData.json'
 excel_file_path = 'faculty.xlsx'
-output_json_file_path = 'UpdatedFinalProfessorsData.json'
+output_json_file_path = '2UpdatedFinalProfessorsData.json'
 
 update_json_with_excel(json_file_path, excel_file_path, output_json_file_path)

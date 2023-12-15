@@ -6,7 +6,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 
 def getSimilarity(student_interests):
-    # Load the combined data from the previously saved JSON file
     with open('FinalProfessorsData.json', 'r') as file:
         combined_data = json.load(file)
 
@@ -33,11 +32,15 @@ def getSimilarity(student_interests):
 
     # Find the top 5 professors with the highest similarity
     top_matches_indices = similarities.argsort()[-5:][::-1]
-    top_matches_professors = [professor_names[i] for i in top_matches_indices]
+
+    top_matches_professors = []
+    for i in top_matches_indices:
+        prof_key = list(combined_data.keys())[i]
+        prof_data = combined_data[prof_key]
+        top_matches_professors.append([prof_key, prof_data['photo'], prof_data['url']])
 
     print("Top 5 Matched Professors:", top_matches_professors)
     return top_matches_professors
-
 
 
 app = Flask(__name__)

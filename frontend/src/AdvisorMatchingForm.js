@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './AdvisorMatching.css';
-import Illini from './I_symbol.jpg'; // Adjust the path as necessary
+import Illini from './I_symbol.jpg'; 
 
 
 const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, setHome}) => {
@@ -21,11 +21,7 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
     e.preventDefault();
     console.log(formData);
     setIsLoading(true);
-    // Here you would typically send the formData to your backend server
-    // the commented code below is to call the Loader component
-     
-  
-  // Fetch data (simulated with a timeout here)
+   
     setTimeout(() => {
       const studentData = {
         "researchInterests": formData.researchInterests,
@@ -33,7 +29,7 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
       }
       async function postData() {
         try {
-          const response = await fetch('http://localhost:5001/api/student', {
+          const response = await fetch('http://localhost:5000/api/student', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -54,15 +50,12 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
         } catch (error) {
           console.error('Fetch error:', error);
         } finally {
-          setIsLoading(false); // Move it here
+          setIsLoading(false); 
         }
       }
       
        postData();
-      
-       //setIsLoading(false);
-        // pass the fetched data to the parent component or handle it as needed
-    }, 5000); 
+          }, 5000); 
 
   };
 

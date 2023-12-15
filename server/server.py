@@ -8,8 +8,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 def getSimilarity(student_interests):
-    # Load the combined data from the JSON file
-    with open('UpdatedFinalProfessorsData.json', 'r') as file:
+    with open('FinalProfessorsData.json', 'r') as file:
         combined_data = json.load(file)
 
     # Combine interests and publications for each professor

@@ -37,7 +37,6 @@ prof_combined = combine_interests_and_publications(prof_data)
 # Vectorize with BM25
 bm25 = vectorize_with_bm25(prof_combined)
 
-# Assuming student interests and publications combined in a string 'student_query'
 student_query = "computer vision deep learning"
 
 # Calculate similarity
