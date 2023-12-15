@@ -1,3 +1,6 @@
+# pip install scikit-learn Flask Flask-Cors rank-bm25
+# python3 server.py
+
 import json
 from rank_bm25 import BM25Okapi
 import numpy as np
