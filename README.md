@@ -6,11 +6,13 @@ Demo Presentation and Video: https://drive.google.com/file/d/1KUnK_wfVAeVrEFxzIL
 
 # Team Members
 
-Guru Nanma Purushotam Eesha Rajesh Chawhan Nikitha Reddy Sankepally
+Guru Nanma Purushotam  
+Eesha Rajesh Chawhan   
+Nikitha Reddy Sankepally
 
 # Environment Setup:
 
-Install python (3.0 +)
+Install python (3.0 +)  
 Install virtualenv (optional)
 
 # Procedure to Run Frontend
@@ -26,6 +28,6 @@ Open in browser http://localhost:3000/
 
 Backend (In another terminal)
 
-cd server
-Install the packages used in the project 
-python server.py
+cd server  
+Install the packages used in the project   
+python server.py  
