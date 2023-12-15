@@ -25,6 +25,7 @@ Open in browser http://localhost:3000/
 # Procedure to Run Backend
 
 Backend (In another terminal)
+
 cd server
 Install the packages used in the project 
 python server.py
