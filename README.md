@@ -17,10 +17,10 @@ Install virtualenv (optional)
 
 Frontend (In one terminal)
 
-cd frontend
-npm install
-npm start
-Open in browser http://localhost:3000/
+cd frontend  
+npm install  
+npm start  
+Open in browser http://localhost:3000/  
     
 # Procedure to Run Backend
 
