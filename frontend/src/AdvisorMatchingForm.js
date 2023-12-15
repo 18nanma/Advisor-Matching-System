@@ -33,7 +33,7 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
       }
       async function postData() {
         try {
-          const response = await fetch('http://localhost:5000/api/student', {
+          const response = await fetch('http://localhost:5001/api/student', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ const AdvisorMatchingForm = ({handleProfData, showResultsPage, setIsLoading, set
   return (
     <div className="form-container">
       <img src={Illini} alt="Descriptive Alt Text" className="form-image" />
-      <div><h1 className="page-title">Advisor Matching System for UIUC Students</h1></div>
+      <div><h1 className="page-title">Advisor Matching System for CS UIUC Students</h1></div>
       <form onSubmit={handleSubmit} className="advisor-matching-form">
         <p>Please enter your research interests and paper titles in the fields below. These will be used to match you with potential advisors.</p>
         
