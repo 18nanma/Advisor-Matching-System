@@ -6,9 +6,9 @@ Demo Presentation and Video: https://drive.google.com/file/d/1KUnK_wfVAeVrEFxzIL
 
 # Team Members
 
-Guru Nanma Purushotam  
-Eesha Rajesh Chawhan   
-Nikitha Reddy Sankepally
+Guru Nanma Purushotam (gnp4)  
+Eesha Rajesh Chawhan (chawhan2)  
+Nikitha Reddy Sankepally (nikitha6)
 
 # Environment Setup:
 
@@ -22,7 +22,6 @@ Frontend (In one terminal)
 cd frontend  
 npm install  
 npm start  
-Open in browser http://localhost:3000/  
     
 # Procedure to Run Backend
 
@@ -30,4 +29,4 @@ Backend (In another terminal)
 
 cd server  
 Install the packages used in the project   
-python server.py  
+python3 server.py  
